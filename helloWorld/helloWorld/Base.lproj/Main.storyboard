@@ -16,46 +16,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LIs-Xx-8KG">
-                                <rect key="frame" x="40" y="417" width="50" height="62"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="English"/>
-                                <connections>
-                                    <action selector="clickedEnglish:" destination="BYZ-38-t0r" eventType="touchUpInside" id="p81-zg-A13"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gx3-uy-MeR">
-                                <rect key="frame" x="114" y="433" width="48" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="French"/>
-                                <connections>
-                                    <action selector="clickedFrench:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cNP-UM-rMT"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bb8-Ct-PxG">
-                                <rect key="frame" x="180" y="433" width="55" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="German"/>
-                                <connections>
-                                    <action selector="clickedGerman:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LRg-Cz-Mjv"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RBS-xq-nN4">
-                                <rect key="frame" x="256" y="433" width="56" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Chinese"/>
-                                <connections>
-                                    <action selector="clickedChinese:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aXM-NL-bp6"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5jD-I0-wSW">
-                                <rect key="frame" x="333" y="433" width="34" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Latin"/>
-                                <connections>
-                                    <action selector="clickedLatin:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zpc-Fq-TbO"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ioS-dh-Qhl">
                                 <rect key="frame" x="132" y="237" width="151" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -63,9 +23,56 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="------------------------------------------------------" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LQK-MA-zWr">
+                                <rect key="frame" x="0.0" y="438" width="414" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LIs-Xx-8KG">
+                                <rect key="frame" x="59" y="504" width="122" height="76"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="English" image="american-flag.png"/>
+                                <connections>
+                                    <action selector="clickedEnglish:" destination="BYZ-38-t0r" eventType="touchUpInside" id="p81-zg-A13"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bb8-Ct-PxG">
+                                <rect key="frame" x="59" y="605" width="122" height="76"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="German" image="Flag_of_Germany.svg.png"/>
+                                <connections>
+                                    <action selector="clickedGerman:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LRg-Cz-Mjv"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RBS-xq-nN4">
+                                <rect key="frame" x="59" y="716" width="122" height="85"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Chinese" image="Flag-China.jpg"/>
+                                <connections>
+                                    <action selector="clickedChinese:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aXM-NL-bp6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5jD-I0-wSW">
+                                <rect key="frame" x="244" y="656" width="101" height="145"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Latin" image="440px-Vexilloid_of_the_Roman_Empire.svg.png"/>
+                                <connections>
+                                    <action selector="clickedLatin:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zpc-Fq-TbO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gx3-uy-MeR">
+                                <rect key="frame" x="234" y="504" width="121" height="86"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="French" image="france.jpg"/>
+                                <connections>
+                                    <action selector="clickedFrench:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cNP-UM-rMT"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" systemColor="systemGrayColor"/>
                     </view>
                     <connections>
                         <outlet property="mylabel" destination="ioS-dh-Qhl" id="kKF-1G-Jxg"/>
@@ -77,8 +84,13 @@
         </scene>
     </scenes>
     <resources>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        <image name="440px-Vexilloid_of_the_Roman_Empire.svg.png" width="440" height="616"/>
+        <image name="Flag-China.jpg" width="800" height="534"/>
+        <image name="Flag_of_Germany.svg.png" width="1200" height="720"/>
+        <image name="american-flag.png" width="2100" height="1144"/>
+        <image name="france.jpg" width="378" height="250"/>
+        <systemColor name="systemGrayColor">
+            <color red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
