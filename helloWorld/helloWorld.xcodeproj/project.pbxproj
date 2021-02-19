@@ -7,12 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		34355B8525DDB2B200397D6B /* augustus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 34355B8425DDB2B200397D6B /* augustus.jpg */; };
 		3454D57625DD6DD70080419A /* 440px-Vexilloid_of_the_Roman_Empire.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = 3454D57525DD6DD70080419A /* 440px-Vexilloid_of_the_Roman_Empire.svg.png */; };
 		3454D57E25DD6E330080419A /* Flag_of_Germany.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = 3454D57A25DD6E330080419A /* Flag_of_Germany.svg.png */; };
 		3454D57F25DD6E330080419A /* Flag-China.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3454D57B25DD6E330080419A /* Flag-China.jpg */; };
 		3454D58125DD6E330080419A /* france.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3454D57D25DD6E330080419A /* france.jpg */; };
 		3454D58925DD6F870080419A /* american-flag.png in Resources */ = {isa = PBXBuildFile; fileRef = 3454D58825DD6F870080419A /* american-flag.png */; };
 		3454D58E25DD707D0080419A /* line.png in Resources */ = {isa = PBXBuildFile; fileRef = 3454D58D25DD707C0080419A /* line.png */; };
+		345C28A525E0112E00FF586F /* angela.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 345C28A325E0112E00FF586F /* angela.jpg */; };
+		345C28A625E0112E00FF586F /* Emmanuel_Macron.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 345C28A425E0112E00FF586F /* Emmanuel_Macron.jpg */; };
+		345C28AC25E011C400FF586F /* joe-biden.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 345C28AA25E011C400FF586F /* joe-biden.jpg */; };
+		345C28AD25E011C400FF586F /* jinping.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 345C28AB25E011C400FF586F /* jinping.jpg */; };
+		345C28B225E0133900FF586F /* cat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 345C28B125E0133900FF586F /* cat.jpg */; };
+		345C28BA25E013A400FF586F /* speech-bub.png in Resources */ = {isa = PBXBuildFile; fileRef = 345C28B925E013A300FF586F /* speech-bub.png */; };
 		34D0A9AF25DB4C2A00FEE349 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34D0A9AE25DB4C2A00FEE349 /* AppDelegate.m */; };
 		34D0A9B225DB4C2A00FEE349 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34D0A9B125DB4C2A00FEE349 /* SceneDelegate.m */; };
 		34D0A9B525DB4C2A00FEE349 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34D0A9B425DB4C2A00FEE349 /* ViewController.m */; };
@@ -42,12 +49,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		34355B8425DDB2B200397D6B /* augustus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = augustus.jpg; sourceTree = "<group>"; };
 		3454D57525DD6DD70080419A /* 440px-Vexilloid_of_the_Roman_Empire.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "440px-Vexilloid_of_the_Roman_Empire.svg.png"; sourceTree = "<group>"; };
 		3454D57A25DD6E330080419A /* Flag_of_Germany.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Flag_of_Germany.svg.png; sourceTree = "<group>"; };
 		3454D57B25DD6E330080419A /* Flag-China.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Flag-China.jpg"; sourceTree = "<group>"; };
 		3454D57D25DD6E330080419A /* france.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = france.jpg; sourceTree = "<group>"; };
 		3454D58825DD6F870080419A /* american-flag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "american-flag.png"; sourceTree = "<group>"; };
 		3454D58D25DD707C0080419A /* line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = line.png; sourceTree = "<group>"; };
+		345C28A325E0112E00FF586F /* angela.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = angela.jpg; sourceTree = "<group>"; };
+		345C28A425E0112E00FF586F /* Emmanuel_Macron.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Emmanuel_Macron.jpg; sourceTree = "<group>"; };
+		345C28AA25E011C400FF586F /* joe-biden.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "joe-biden.jpg"; sourceTree = "<group>"; };
+		345C28AB25E011C400FF586F /* jinping.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jinping.jpg; sourceTree = "<group>"; };
+		345C28B125E0133900FF586F /* cat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat.jpg; sourceTree = "<group>"; };
+		345C28B925E013A300FF586F /* speech-bub.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "speech-bub.png"; sourceTree = "<group>"; };
 		34D0A9AA25DB4C2A00FEE349 /* helloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = helloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34D0A9AD25DB4C2A00FEE349 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		34D0A9AE25DB4C2A00FEE349 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -127,8 +141,15 @@
 				3454D57A25DD6E330080419A /* Flag_of_Germany.svg.png */,
 				3454D57B25DD6E330080419A /* Flag-China.jpg */,
 				3454D58D25DD707C0080419A /* line.png */,
+				345C28B125E0133900FF586F /* cat.jpg */,
 				3454D58825DD6F870080419A /* american-flag.png */,
 				3454D57D25DD6E330080419A /* france.jpg */,
+				34355B8425DDB2B200397D6B /* augustus.jpg */,
+				345C28A325E0112E00FF586F /* angela.jpg */,
+				345C28A425E0112E00FF586F /* Emmanuel_Macron.jpg */,
+				345C28AB25E011C400FF586F /* jinping.jpg */,
+				345C28AA25E011C400FF586F /* joe-biden.jpg */,
+				345C28B925E013A300FF586F /* speech-bub.png */,
 				34D0A9B925DB4C2B00FEE349 /* Assets.xcassets */,
 				34D0A9BB25DB4C2B00FEE349 /* LaunchScreen.storyboard */,
 				34D0A9BE25DB4C2B00FEE349 /* Info.plist */,
@@ -259,13 +280,20 @@
 			files = (
 				3454D58125DD6E330080419A /* france.jpg in Resources */,
 				34D0A9BD25DB4C2B00FEE349 /* LaunchScreen.storyboard in Resources */,
+				345C28A625E0112E00FF586F /* Emmanuel_Macron.jpg in Resources */,
+				345C28AC25E011C400FF586F /* joe-biden.jpg in Resources */,
+				34355B8525DDB2B200397D6B /* augustus.jpg in Resources */,
 				3454D58E25DD707D0080419A /* line.png in Resources */,
 				3454D57F25DD6E330080419A /* Flag-China.jpg in Resources */,
+				345C28AD25E011C400FF586F /* jinping.jpg in Resources */,
+				345C28A525E0112E00FF586F /* angela.jpg in Resources */,
 				3454D58925DD6F870080419A /* american-flag.png in Resources */,
 				34D0A9BA25DB4C2B00FEE349 /* Assets.xcassets in Resources */,
 				3454D57625DD6DD70080419A /* 440px-Vexilloid_of_the_Roman_Empire.svg.png in Resources */,
 				34D0A9B825DB4C2A00FEE349 /* Main.storyboard in Resources */,
 				3454D57E25DD6E330080419A /* Flag_of_Germany.svg.png in Resources */,
+				345C28B225E0133900FF586F /* cat.jpg in Resources */,
+				345C28BA25E013A400FF586F /* speech-bub.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

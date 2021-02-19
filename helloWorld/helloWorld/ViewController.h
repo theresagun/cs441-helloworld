@@ -9,6 +9,8 @@
 
 @interface ViewController : UIViewController
 @property (nonatomic, strong) IBOutlet UILabel *mylabel;
+@property (nonatomic, strong) IBOutlet UIImageView *myimage;
+@property (nonatomic, strong) IBOutlet UIImageView *speechbub;
 
 @end
 
